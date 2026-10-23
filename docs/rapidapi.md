@@ -34,3 +34,11 @@ Rationale (competitor check 2026-10-23, `modules/products/RAPIDAPI-COMPETITORS-2
 **Base URL:** the Vercel deployment (set after `vercel.com/new` import). **Proxy secret:** copy RapidAPI's `X-RapidAPI-Proxy-Secret` into the Vercel env `RAPIDAPI_PROXY_SECRET` and redeploy, so only RapidAPI traffic reaches `/v1/*`.
 
 **Payout:** RapidAPI pays providers via PayPal; the payout email is entered by the account owner in Provider settings (never by the automation).
+
+## Status 2026-10-23
+Done in the RapidAPI Studio: overview, base URL `https://public-data-api.vercel.app`, 5 endpoints with parameters, plans (Basic free 50 hard limit; Pro $3 / 2,000 + $0.003, recommended; Ultra $9 / 20,000 + $0.002; Mega $29 / 100,000 + $0.001), proxy timeout 60 s, health check `/health`.
+
+Two things the automation is not allowed to do (both are one click for the owner):
+1. **Make it public**: Studio → Hub Listing → General → Visibility: tick "I confirm that I own or have rights to publish this API", flip the switch, Save. https://rapidapi.com/studio/api_d5b201ba-fdb3-468f-9aa5-fc4a5aa1d041/publish/general
+2. **Proxy secret**: Studio → Gateway → X-RapidAPI-Proxy-Secret → Copy; Vercel → project public-data-api → Settings → Environment Variables → add `RAPIDAPI_PROXY_SECRET` → Redeploy. Until then `/v1/*` also answers direct calls (no billing).
+Payout email: Provider Dashboard → Payment Settings (PayPal), owner only.
