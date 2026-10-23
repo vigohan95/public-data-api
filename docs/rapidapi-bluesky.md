@@ -44,3 +44,11 @@ Rationale (2026-10-23 competitor check, 7 Bluesky APIs read): $5 / 10,000 and $1
 - GET /v1/bluesky/list — list (required), limit, cursor, raw
 
 **Owner steps after the listing exists:** copy this API's X-RapidAPI-Proxy-Secret (Studio → Gateway) and append it to the Vercel env `RAPIDAPI_PROXY_SECRET` as a comma-separated second value, then Redeploy; then make the listing public.
+
+## Status 2026-10-23
+Listing created: https://rapidapi.com/HanVigo/api/bluesky-public-data (Studio id api_3c69b44a-1a47-41d2-b432-9a4c63607bae). Overview, terms, base URL, 9 endpoints with parameters and examples, four plans, README docs, gateway timeout 60 s, health check /health: done by the automation.
+
+Owner steps (the automation is not allowed to read or write secrets, nor accept the publishing terms):
+1. Studio → Gateway → X-RapidAPI-Proxy-Secret → Copy. https://rapidapi.com/studio/api_3c69b44a-1a47-41d2-b432-9a4c63607bae/publish/gateway
+2. Vercel → public-data-api → Settings → Environment Variables → RAPIDAPI_PROXY_SECRET → Edit: keep the existing value and append a comma plus the copied secret (`<wordpress-secret>,<bluesky-secret>`) → Save. Then tell Claude, who triggers the redeploy.
+3. Studio → General → Visibility: tick the rights confirmation, switch to Public, Save. https://rapidapi.com/studio/api_3c69b44a-1a47-41d2-b432-9a4c63607bae/publish/general
