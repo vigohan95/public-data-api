@@ -1,0 +1,5 @@
+-r requirements.txt
+uvicorn>=0.30
+pytest>=8.0
+pytest-asyncio>=0.23
+respx>=0.21
