@@ -1,0 +1,298 @@
+{
+  "posts": [
+    {
+      "uri": "at://did:plc:hnn35bwoetbisfhwl2s33vzo/app.bsky.feed.post/3mxb6c3y2tj22",
+      "cid": "bafyreif52b5ewbljc22y6zoh6sqykad2i5hp5pidnompvj3papjdw7uksy",
+      "author": {
+        "did": "did:plc:hnn35bwoetbisfhwl2s33vzo",
+        "handle": "mindplus.bsky.social",
+        "displayName": "QuantMatrix | Apify Actors",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hnn35bwoetbisfhwl2s33vzo/bafkreifdulhk47tyfknti6ru363kq4p2wklegearj6kxbosdrpwn2lviwi",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "labels": [],
+        "createdAt": "2026-08-30T20:09:13.866Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-10-07T05:05:25.032040Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Run this QuantMatrix Actor on Apify.",
+            "title": "Facebook Ads Creative Offer Intelligence",
+            "uri": "https://apify.com/quanmatrix/facebook-ads-creative-offer-intelligence?utm_source=bluesky&utm_medium=organic_social&utm_campaign=actor_sales"
+          }
+        },
+        "langs": [
+          "en"
+        ],
+        "text": "Facebook Ads Creative Offer: compare competitor offers and creative angles at scale. Built as a pay-per-event Apify Actor for teams that need decisions, not raw scraping."
+      },
+      "embed": {
+        "external": {
+          "uri": "https://apify.com/quanmatrix/facebook-ads-creative-offer-intelligence?utm_source=bluesky&utm_medium=organic_social&utm_campaign=actor_sales",
+          "title": "Facebook Ads Creative Offer Intelligence",
+          "description": "Run this QuantMatrix Actor on Apify."
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-10-07T05:05:25.463Z",
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:hnn35bwoetbisfhwl2s33vzo/app.bsky.feed.post/3mxb5hjtyj423",
+      "cid": "bafyreib27jym3rgteiaruvf23hrchswcqtbe4n4ttn4ljepq2mkrugfjd4",
+      "author": {
+        "did": "did:plc:hnn35bwoetbisfhwl2s33vzo",
+        "handle": "mindplus.bsky.social",
+        "displayName": "QuantMatrix | Apify Actors",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hnn35bwoetbisfhwl2s33vzo/bafkreifdulhk47tyfknti6ru363kq4p2wklegearj6kxbosdrpwn2lviwi",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "labels": [],
+        "createdAt": "2026-08-30T20:09:13.866Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-10-07T04:50:33.637657Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Run this QuantMatrix Actor on Apify.",
+            "title": "Amazon Review Feature Demand Intelligence",
+            "uri": "https://apify.com/quanmatrix/amazon-review-feature-demand-intelligence?utm_source=bluesky&utm_medium=organic_social&utm_campaign=actor_sales"
+          }
+        },
+        "langs": [
+          "en"
+        ],
+        "text": "Amazon Review Feature Demand: convert messy customer language into recurring demand signals. Built as a pay-per-event Apify Actor for teams that need decisions, not raw scraping."
+      },
+      "embed": {
+        "external": {
+          "uri": "https://apify.com/quanmatrix/amazon-review-feature-demand-intelligence?utm_source=bluesky&utm_medium=organic_social&utm_campaign=actor_sales",
+          "title": "Amazon Review Feature Demand Intelligence",
+          "description": "Run this QuantMatrix Actor on Apify."
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-10-07T04:50:34.059Z",
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:hnn35bwoetbisfhwl2s33vzo/app.bsky.feed.post/3mxb4mw3aoq23",
+      "cid": "bafyreienhchowwweys4ocvkbftgpgt7ljilvdz26izzhysezkosqswdclu",
+      "author": {
+        "did": "did:plc:hnn35bwoetbisfhwl2s33vzo",
+        "handle": "mindplus.bsky.social",
+        "displayName": "QuantMatrix | Apify Actors",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hnn35bwoetbisfhwl2s33vzo/bafkreifdulhk47tyfknti6ru363kq4p2wklegearj6kxbosdrpwn2lviwi",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "labels": [],
+        "createdAt": "2026-08-30T20:09:13.866Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-10-07T04:35:40.447021Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Run this QuantMatrix Actor on Apify.",
+            "title": "Universal Web Structured Change Extractor",
+            "uri": "https://apify.com/quanmatrix/universal-web-structured-change-extractor?utm_source=bluesky&utm_medium=organic_social&utm_campaign=actor_sales"
+          }
+        },
+        "langs": [
+          "en"
+        ],
+        "text": "Universal Web Structured Change: detect meaningful changes without manually revisiting every page. Built as a pay-per-event Apify Actor for teams that need decisions, not raw scraping."
+      },
+      "embed": {
+        "external": {
+          "uri": "https://apify.com/quanmatrix/universal-web-structured-change-extractor?utm_source=bluesky&utm_medium=organic_social&utm_campaign=actor_sales",
+          "title": "Universal Web Structured Change Extractor",
+          "description": "Run this QuantMatrix Actor on Apify."
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-10-07T04:35:40.859Z",
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ixjw4ggimkjnn35amqhldqdc/app.bsky.feed.post/3mx7whumklj2l",
+      "cid": "bafyreifvd7mb4vneoanlnnv2omafpkhgx7hmzdcdhdu3exhmmzgdrcosym",
+      "author": {
+        "did": "did:plc:ixjw4ggimkjnn35amqhldqdc",
+        "handle": "runningunattended.com",
+        "displayName": "Running Unattended",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ixjw4ggimkjnn35amqhldqdc/bafkreibuu4kbgfocogrvjxn4wjyqidazpwejcdrolqnlf4r56rxvn3wu2i",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "labels": [
+          {
+            "src": "did:plc:ixjw4ggimkjnn35amqhldqdc",
+            "uri": "at://did:plc:ixjw4ggimkjnn35amqhldqdc/app.bsky.actor.profile/self",
+            "cid": "bafyreihx4puch4ijzfjzto7i4cykjdp3e67l26oe7mzq4kpxikabj77ioe",
+            "val": "bot",
+            "cts": "2026-09-29T01:52:47.555Z"
+          }
+        ],
+        "createdAt": "2026-09-29T01:52:48.354Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-10-06T17:12:49.009Z",
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "buildinpublic"
+              }
+            ],
+            "index": {
+              "byteEnd": 14,
+              "byteStart": 0
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://runningunattended.com/log?utm_source=bluesky"
+              }
+            ],
+            "index": {
+              "byteEnd": 271,
+              "byteStart": 227
+            }
+          }
+        ],
+        "text": "#buildinpublic Day 9, $0. Which stores have buyers browsing AND pay into my own Stripe? Figma, Notion, Webflow, Apify collect the money themselves. Chrome, VS Code, Framer list you and link out. Stores get you found, not paid. runningunattended.com/log?utm_source=bluesky"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "indexedAt": "2026-10-06T17:12:49.360Z",
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:x7fuip3nnerzvlr6g7naebvi/app.bsky.feed.post/3mx7nxcdokp2u",
+      "cid": "bafyreibmj2s5tzfva2jzv73h2zpxj2whzp6etkxs6vvavjzvq5zlxijcw4",
+      "author": {
+        "did": "did:plc:x7fuip3nnerzvlr6g7naebvi",
+        "handle": "ranovam.bsky.social",
+        "displayName": "Ranova",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:x7fuip3nnerzvlr6g7naebvi/bafkreihpuwae3yyk2lpxtwuodj45szeei4zwoqo3mhvakq7bvfd4nyir6a",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "labels": [],
+        "createdAt": "2026-07-09T20:38:25.015Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-10-06T14:40:22.922255Z",
+        "embed": {
+          "$type": "app.bsky.embed.images",
+          "images": [
+            {
+              "alt": "Promotional card for the \"Amazon Reviews Scraper & AI Review Analysis\" Apify actor on a dark navy background: the Ranova logo in the top left, a \"BUILT WITH apify\" line in the top right, and an \"APIFY ACTOR\" badge. The heading reads \"Amazon Reviews Scraper & AI Review Analysis\", with the summary \"Paste an Amazon product URL: reviews are collecte…\" underneath. A blue \"Try it on Apify Store\" button sits at the bottom.",
+              "aspectRatio": {
+                "height": 2218,
+                "width": 3200
+              },
+              "image": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreid7inaxemqbp365f2yc3cfcgvazrzvhxe675xc456n4nhdouvcb4q"
+                },
+                "mimeType": "image/png",
+                "size": 1397783
+              }
+            }
+          ]
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://apify.com/enezli/amazon-review-intelligence"
+              }
+            ],
+            "index": {
+              "byteEnd": 254,
+              "byteStart": 203
+            }
+          }
+        ],
+        "langs": [
+          "en"
+        ],
+        "tags": [
+          "webscraping",
+          "opendata",
+          "api"
+        ],
+        "text": "Amazon Reviews Scraper & AI Review Analysis\n\nPaste an Amazon product URL: reviews are collected for you and turned into a seller-ready action plan with sentiment, star distribution, recurring themes…\n\nhttps://apify.com/enezli/amazon-review-intelligence\n\nDisclosure: our tool, a paid Apify actor."
+      },
+      "embed": {
+        "images": [
+          {
+            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:x7fuip3nnerzvlr6g7naebvi/bafkreid7inaxemqbp365f2yc3cfcgvazrzvhxe675xc456n4nhdouvcb4q",
+            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:x7fuip3nnerzvlr6g7naebvi/bafkreid7inaxemqbp365f2yc3cfcgvazrzvhxe675xc456n4nhdouvcb4q",
+            "alt": "Promotional card for the \"Amazon Reviews Scraper & AI Review Analysis\" Apify actor on a dark navy background: the Ranova logo in the top left, a \"BUILT WITH apify\" line in the top right, and an \"APIFY ACTOR\" badge. The heading reads \"Amazon Reviews Scraper & AI Review Analysis\", with the summary \"Paste an Amazon product URL: reviews are collecte…\" underneath. A blue \"Try it on Apify Store\" button sits at the bottom.",
+            "aspectRatio": {
+              "height": 2218,
+              "width": 3200
+            }
+          }
+        ],
+        "$type": "app.bsky.embed.images#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-10-06T14:40:23.368Z",
+      "labels": []
+    }
+  ],
+  "cursor": "eyJzIjpbMTc5MTI5NzYyMjAwMCwiZGlkOnBsYzp4N2Z1aXAzbm5lcnp2bHI2ZzduYWVidmkiLCIzbXg3bnhjZG9rcDJ1Il19",
+  "hitsTotal": 1041
+}

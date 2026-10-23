@@ -1,0 +1,731 @@
+{
+  "feed": [
+    {
+      "post": {
+        "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3mx5e63uvns2d",
+        "cid": "bafyreicnhzopqetyqko7bcc2gul2dkgtyxgnl3creeklgugdagxp7anaxe",
+        "author": {
+          "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+          "handle": "bsky.app",
+          "displayName": "Bluesky",
+          "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihwihm6kpd6zuwhhlro75p5qks5qtrcu55jp3gddbfjsieiv7wuka",
+          "associated": {
+            "chat": {
+              "allowIncoming": "none"
+            },
+            "activitySubscription": {
+              "allowSubscriptions": "followers"
+            }
+          },
+          "labels": [],
+          "createdAt": "2023-04-12T04:53:57.057Z",
+          "verification": {
+            "verifications": [],
+            "verifiedStatus": "none",
+            "trustedVerifierStatus": "valid"
+          }
+        },
+        "record": {
+          "$type": "app.bsky.feed.post",
+          "createdAt": "2026-10-05T16:39:54.426Z",
+          "embed": {
+            "$type": "app.bsky.embed.record",
+            "record": {
+              "cid": "bafyreify4yfgnmeoalta6jkgs23ro7mphst2jr7luhggazluukvfpx5iva",
+              "uri": "at://did:plc:ilmbc32kos5zwmkqh2nxamwc/app.bsky.feed.post/3mx4smdh4el2k"
+            }
+          },
+          "facets": [
+            {
+              "$type": "app.bsky.richtext.facet",
+              "features": [
+                {
+                  "$type": "app.bsky.richtext.facet#mention",
+                  "did": "did:plc:qmmohi6hskhsvqbw46eflibx"
+                }
+              ],
+              "index": {
+                "byteEnd": 61,
+                "byteStart": 38
+              }
+            },
+            {
+              "$type": "app.bsky.richtext.facet",
+              "features": [
+                {
+                  "$type": "app.bsky.richtext.facet#mention",
+                  "did": "did:plc:ilmbc32kos5zwmkqh2nxamwc"
+                }
+              ],
+              "index": {
+                "byteEnd": 133,
+                "byteStart": 118
+              }
+            }
+          ],
+          "langs": [
+            "en"
+          ],
+          "text": "Congratulations to Nobel Prize winner @deisseroth.bsky.social! Follow along with the prize announcements all week via @nobelprize.org"
+        },
+        "embed": {
+          "record": {
+            "uri": "at://did:plc:ilmbc32kos5zwmkqh2nxamwc/app.bsky.feed.post/3mx4smdh4el2k",
+            "cid": "bafyreify4yfgnmeoalta6jkgs23ro7mphst2jr7luhggazluukvfpx5iva",
+            "author": {
+              "did": "did:plc:ilmbc32kos5zwmkqh2nxamwc",
+              "handle": "nobelprize.org",
+              "displayName": "Nobel Prize",
+              "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ilmbc32kos5zwmkqh2nxamwc/bafkreiazg3gt4cxp3ym5sxczr3fnjvxfzk5fkjns4zswqriqhrel6zlym4",
+              "associated": {
+                "activitySubscription": {
+                  "allowSubscriptions": "followers"
+                }
+              },
+              "labels": [],
+              "createdAt": "2024-11-14T07:35:01.775Z",
+              "verification": {
+                "verifications": [
+                  {
+                    "issuer": "did:plc:z72i7hdynmk6r22z27h6tvur",
+                    "issuerDisplayName": "Bluesky",
+                    "issuerHandle": "bsky.app",
+                    "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.graph.verification/3mtvo3rh2a62f",
+                    "isValid": true,
+                    "createdAt": "2026-08-25T11:00:40.747Z"
+                  }
+                ],
+                "verifiedStatus": "valid",
+                "trustedVerifierStatus": "none"
+              },
+              "status": {
+                "uri": "at://did:plc:ilmbc32kos5zwmkqh2nxamwc/app.bsky.actor.status/self",
+                "cid": "bafyreig34hu2xx5fafg6uz2pwp6opzhddxilq2klhqglfloikml4cgku3i",
+                "record": {
+                  "$type": "app.bsky.actor.status",
+                  "createdAt": "2026-10-07T09:31:24.714Z",
+                  "durationMinutes": 60,
+                  "embed": {
+                    "$type": "app.bsky.embed.external",
+                    "external": {
+                      "$type": "app.bsky.embed.external#external",
+                      "description": "YouTube video by Nobel Prize",
+                      "thumb": {
+                        "$type": "blob",
+                        "ref": {
+                          "$link": "bafkreiegujsgzssfbsmpvxxkokzlidizlehaghtexdki554uj7apsmuipa"
+                        },
+                        "mimeType": "image/jpeg",
+                        "size": 113516
+                      },
+                      "title": "Announcement of the 2026 Nobel Prize in Chemistry",
+                      "uri": "https://youtube.com/live/a9Bhx9wEt8U"
+                    }
+                  },
+                  "status": "app.bsky.actor.status#live"
+                },
+                "status": "app.bsky.actor.status#live",
+                "embed": {
+                  "external": {
+                    "uri": "https://youtube.com/live/a9Bhx9wEt8U",
+                    "title": "Announcement of the 2026 Nobel Prize in Chemistry",
+                    "description": "YouTube video by Nobel Prize",
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ilmbc32kos5zwmkqh2nxamwc/bafkreiegujsgzssfbsmpvxxkokzlidizlehaghtexdki554uj7apsmuipa"
+                  },
+                  "$type": "app.bsky.embed.external#view"
+                },
+                "labels": [],
+                "expiresAt": "2026-10-07T10:31:24.714Z",
+                "isActive": false
+              }
+            },
+            "value": {
+              "$type": "app.bsky.feed.post",
+              "allow": [],
+              "createdAt": "2026-10-05T11:25:44.646658738Z",
+              "embed": {
+                "$type": "app.bsky.embed.images",
+                "captions": [],
+                "external": null,
+                "images": [
+                  {
+                    "alt": "Karl Deisseroth on the phone looking happy",
+                    "aspectRatio": {
+                      "height": 2000,
+                      "width": 1302
+                    },
+                    "image": {
+                      "$type": "blob",
+                      "ref": {
+                        "$link": "bafkreien7j3vwlmjyu56t7hrp2hs5exlur5mzc4jwnbyxzfkt5tgt2qzqa"
+                      },
+                      "mimeType": "image/jpeg",
+                      "size": 242696
+                    }
+                  }
+                ],
+                "record": null,
+                "video": null
+              },
+              "hiddenReplies": [],
+              "text": "Congratulations to our first Nobel Prize laureate of 2026 🎉\n\nEarly this morning Karl Deisseroth found out he was awarded this year's Nobel Prize in Physiology or Medicine.\n\nHe seems very happy with the news!"
+            },
+            "labels": [],
+            "likeCount": 1157,
+            "replyCount": 14,
+            "repostCount": 133,
+            "quoteCount": 44,
+            "indexedAt": "2026-10-05T11:25:45.464Z",
+            "embeds": [
+              {
+                "images": [
+                  {
+                    "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ilmbc32kos5zwmkqh2nxamwc/bafkreien7j3vwlmjyu56t7hrp2hs5exlur5mzc4jwnbyxzfkt5tgt2qzqa",
+                    "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:ilmbc32kos5zwmkqh2nxamwc/bafkreien7j3vwlmjyu56t7hrp2hs5exlur5mzc4jwnbyxzfkt5tgt2qzqa",
+                    "alt": "Karl Deisseroth on the phone looking happy",
+                    "aspectRatio": {
+                      "height": 2000,
+                      "width": 1302
+                    }
+                  }
+                ],
+                "$type": "app.bsky.embed.images#view"
+              }
+            ],
+            "$type": "app.bsky.embed.record#viewRecord"
+          },
+          "$type": "app.bsky.embed.record#view"
+        },
+        "bookmarkCount": 30,
+        "replyCount": 32,
+        "repostCount": 166,
+        "likeCount": 2141,
+        "quoteCount": 8,
+        "indexedAt": "2026-10-05T16:39:54.860Z",
+        "labels": [],
+        "threadgate": {
+          "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.threadgate/3mx5e63uvns2d",
+          "cid": "bafyreidhcpihhenqyczgtwuy77vfjxh2mx7q64z6ypacvoapro4trb47sq",
+          "record": {
+            "$type": "app.bsky.feed.threadgate",
+            "createdAt": "2026-10-05T20:08:12.570Z",
+            "hiddenReplies": [
+              "at://did:plc:osg2vzhifd2tjfsvfwua7scy/app.bsky.feed.post/3mx5jquevnk2n",
+              "at://did:plc:wehzvrzgteo4ff3jo264hx6r/app.bsky.feed.post/3mx5lzpfpes2r",
+              "at://did:plc:36zxdslw62m745v54pjaphtt/app.bsky.feed.post/3mx5ppldifs2t",
+              "at://did:plc:jl5xwwm7vkaxkg5z4ehpmne6/app.bsky.feed.post/3mx5oodbjrk2b"
+            ],
+            "post": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3mx5e63uvns2d"
+          },
+          "lists": []
+        }
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:ifn645rwvsuolxg7o3w7ouo4/app.bsky.feed.post/3mwqgsd4cgs2a",
+        "cid": "bafyreiesf6zo5wqojuoxdekbqap7pqev6t6xa2q5kzayntr6bgrt2ixi7m",
+        "author": {
+          "did": "did:plc:ifn645rwvsuolxg7o3w7ouo4",
+          "handle": "aster.id",
+          "displayName": "Aster ID",
+          "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ifn645rwvsuolxg7o3w7ouo4/bafkreicid7hoyx5d2if24eryyhb3lg4ioy2mdrmiriga3k2cay6k5io4ta",
+          "associated": {
+            "chat": {
+              "allowIncoming": "all",
+              "allowGroupInvites": "all"
+            },
+            "activitySubscription": {
+              "allowSubscriptions": "followers"
+            }
+          },
+          "labels": [],
+          "createdAt": "2026-08-31T07:23:03.599Z"
+        },
+        "record": {
+          "$type": "app.bsky.feed.post",
+          "createdAt": "2026-09-30T13:22:23.989Z",
+          "embed": {
+            "$type": "app.bsky.embed.external",
+            "external": {
+              "associatedRefs": [
+                {
+                  "$type": "com.atproto.repo.strongRef",
+                  "cid": "bafyreifsqap4ezss7xrghaaffq62bpozbsiy2movcqq6srb3ukrw77n5ky",
+                  "uri": "at://did:plc:ifn645rwvsuolxg7o3w7ouo4/site.standard.document/3mwqgs7dp2s2a"
+                },
+                {
+                  "$type": "com.atproto.repo.strongRef",
+                  "cid": "bafyreigq3k6pnrpn5x3g5jiextybdiopboxjczy7uxzcdpvl5qvhd5uezq",
+                  "uri": "at://did:plc:ifn645rwvsuolxg7o3w7ouo4/site.standard.publication/3mvimt7nmrs2m"
+                }
+              ],
+              "description": "",
+              "thumb": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreieolaxfe3uql5dczruhkjynkvjdrbwcxhn2vcrfnxbbzvb7rdil7i"
+                },
+                "mimeType": "image/webp",
+                "size": 4748
+              },
+              "title": "Announcing Aster - a home for researchers on the open web ",
+              "uri": "https://blog.aster.place/3mwqgs7dp2s2a?utm_source=bluesky&utm_medium=social&utm_campaign=publish&utm_content=did%3Aplc%3Aifn645rwvsuolxg7o3w7ouo4%2F3mwqgsd4cgs2a"
+            }
+          },
+          "facets": [],
+          "langs": [
+            "en"
+          ],
+          "text": "The modern research ecosystem of online tools and communities is controlled by for-profit companies.\n\nBut we think that researchers should be the priority - not the product.\n\nSo, we're announcing Aster ID: not-for-profit Atmosphere account hosting for researchers."
+        },
+        "embed": {
+          "external": {
+            "uri": "https://blog.aster.place/3mwqgs7dp2s2a?utm_source=bluesky&utm_medium=social&utm_campaign=publish&utm_content=did%3Aplc%3Aifn645rwvsuolxg7o3w7ouo4%2F3mwqgsd4cgs2a",
+            "title": "Announcing Aster - a home for researchers on the open web ",
+            "description": "",
+            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ifn645rwvsuolxg7o3w7ouo4/bafkreieolaxfe3uql5dczruhkjynkvjdrbwcxhn2vcrfnxbbzvb7rdil7i",
+            "createdAt": "2026-09-30T13:22:17.189Z",
+            "source": {
+              "uri": "https://blog.aster.place",
+              "icon": "https://cdn.bsky.app/img/avatar/plain/did:plc:ifn645rwvsuolxg7o3w7ouo4/bafkreieasq5ho7s5rai44b44jyqte4ryyaeiuyqkgf5sxw7dxaqcu7raki",
+              "title": "Aster Blog",
+              "description": "",
+              "theme": {
+                "backgroundRGB": {
+                  "r": 253,
+                  "g": 252,
+                  "b": 250,
+                  "$type": "app.bsky.embed.external#colorRGB"
+                },
+                "foregroundRGB": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "$type": "app.bsky.embed.external#colorRGB"
+                },
+                "accentRGB": {
+                  "r": 73,
+                  "g": 53,
+                  "b": 125,
+                  "$type": "app.bsky.embed.external#colorRGB"
+                },
+                "accentForegroundRGB": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 255,
+                  "$type": "app.bsky.embed.external#colorRGB"
+                }
+              },
+              "$type": "app.bsky.embed.external#viewExternalSource"
+            },
+            "associatedProfiles": [
+              {
+                "did": "did:plc:ifn645rwvsuolxg7o3w7ouo4",
+                "handle": "aster.id",
+                "displayName": "Aster ID",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ifn645rwvsuolxg7o3w7ouo4/bafkreicid7hoyx5d2if24eryyhb3lg4ioy2mdrmiriga3k2cay6k5io4ta",
+                "associated": {
+                  "chat": {
+                    "allowIncoming": "all",
+                    "allowGroupInvites": "all"
+                  },
+                  "activitySubscription": {
+                    "allowSubscriptions": "followers"
+                  }
+                },
+                "labels": [],
+                "createdAt": "2026-08-31T07:23:03.599Z"
+              }
+            ],
+            "associatedRefs": [
+              {
+                "$type": "com.atproto.repo.strongRef",
+                "cid": "bafyreifsqap4ezss7xrghaaffq62bpozbsiy2movcqq6srb3ukrw77n5ky",
+                "uri": "at://did:plc:ifn645rwvsuolxg7o3w7ouo4/site.standard.document/3mwqgs7dp2s2a"
+              },
+              {
+                "$type": "com.atproto.repo.strongRef",
+                "cid": "bafyreigq3k6pnrpn5x3g5jiextybdiopboxjczy7uxzcdpvl5qvhd5uezq",
+                "uri": "at://did:plc:ifn645rwvsuolxg7o3w7ouo4/site.standard.publication/3mvimt7nmrs2m"
+              }
+            ]
+          },
+          "$type": "app.bsky.embed.external#view"
+        },
+        "bookmarkCount": 156,
+        "replyCount": 20,
+        "repostCount": 151,
+        "likeCount": 760,
+        "quoteCount": 34,
+        "indexedAt": "2026-09-30T13:22:24.362Z",
+        "labels": []
+      },
+      "reason": {
+        "by": {
+          "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+          "handle": "bsky.app",
+          "displayName": "Bluesky",
+          "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihwihm6kpd6zuwhhlro75p5qks5qtrcu55jp3gddbfjsieiv7wuka",
+          "associated": {
+            "chat": {
+              "allowIncoming": "none"
+            },
+            "activitySubscription": {
+              "allowSubscriptions": "followers"
+            }
+          },
+          "labels": [],
+          "createdAt": "2023-04-12T04:53:57.057Z",
+          "verification": {
+            "verifications": [],
+            "verifiedStatus": "none",
+            "trustedVerifierStatus": "valid"
+          }
+        },
+        "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.repost/3mwqx5kus2z24",
+        "cid": "bafyreierxksp423ms663ne4ccfytl37cmnjepjugzm7reasa3cwysdwfee",
+        "indexedAt": "2026-09-30T18:15:05.366Z",
+        "$type": "app.bsky.feed.defs#reasonRepost"
+      },
+      "opThreadPostIndex": 1,
+      "opThreadPostCount": 7
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3mwolmfws5k2r",
+        "cid": "bafyreicquqnkjvugubmjyfiorc3nbrxuu7y4faicpulqmxb4ua73tpb564",
+        "author": {
+          "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+          "handle": "bsky.app",
+          "displayName": "Bluesky",
+          "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihwihm6kpd6zuwhhlro75p5qks5qtrcu55jp3gddbfjsieiv7wuka",
+          "associated": {
+            "chat": {
+              "allowIncoming": "none"
+            },
+            "activitySubscription": {
+              "allowSubscriptions": "followers"
+            }
+          },
+          "labels": [],
+          "createdAt": "2023-04-12T04:53:57.057Z",
+          "verification": {
+            "verifications": [],
+            "verifiedStatus": "none",
+            "trustedVerifierStatus": "valid"
+          }
+        },
+        "record": {
+          "$type": "app.bsky.feed.post",
+          "createdAt": "2026-09-29T19:43:14.855Z",
+          "embed": {
+            "$type": "app.bsky.embed.record",
+            "record": {
+              "cid": "bafyreig5co3zqwje5vtj535kqfc3rvdofgeh25br43ovzs57ezspkha6dm",
+              "uri": "at://did:plc:54vdi5eoabhod2vumsbcpi7g/app.bsky.graph.starterpack/3lgml5ek7772a"
+            }
+          },
+          "langs": [
+            "en"
+          ],
+          "text": "Happy opening day of hockey season, NHL fans! \n\nKeep up with all 1,344 regular season games with this starter pack of hockey writers."
+        },
+        "embed": {
+          "record": {
+            "uri": "at://did:plc:54vdi5eoabhod2vumsbcpi7g/app.bsky.graph.starterpack/3lgml5ek7772a",
+            "cid": "bafyreig5co3zqwje5vtj535kqfc3rvdofgeh25br43ovzs57ezspkha6dm",
+            "record": {
+              "$type": "app.bsky.graph.starterpack",
+              "createdAt": "2025-01-26T04:20:12.305Z",
+              "description": "A certainly incomplete of hockey writers on Bluesky.",
+              "feeds": [],
+              "list": "at://did:plc:54vdi5eoabhod2vumsbcpi7g/app.bsky.graph.list/3lgml5ebpdi2a",
+              "name": "NHL Writers"
+            },
+            "creator": {
+              "did": "did:plc:54vdi5eoabhod2vumsbcpi7g",
+              "handle": "marklazerus.bsky.social",
+              "displayName": "Mark Lazerus",
+              "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:54vdi5eoabhod2vumsbcpi7g/bafkreibx22dgzvioyyatjcmrq5nb7wydhxxzrspcqhxibfjngtltj6abaq",
+              "associated": {
+                "activitySubscription": {
+                  "allowSubscriptions": "followers"
+                }
+              },
+              "labels": [],
+              "createdAt": "2023-07-04T02:46:31.348Z",
+              "verification": {
+                "verifications": [
+                  {
+                    "issuer": "did:plc:b2kutgxqlltwc6lhs724cfwr",
+                    "issuerDisplayName": "The Athletic",
+                    "issuerHandle": "theathletic.com",
+                    "uri": "at://did:plc:b2kutgxqlltwc6lhs724cfwr/app.bsky.graph.verification/3lnethjaxrr2f",
+                    "isValid": true,
+                    "createdAt": "2025-04-22T04:24:06.219Z"
+                  }
+                ],
+                "verifiedStatus": "valid",
+                "trustedVerifierStatus": "none"
+              }
+            },
+            "joinedAllTimeCount": 6,
+            "joinedWeekCount": 0,
+            "labels": [],
+            "indexedAt": "2025-01-26T04:20:13.401Z",
+            "$type": "app.bsky.graph.defs#starterPackViewBasic"
+          },
+          "$type": "app.bsky.embed.record#view"
+        },
+        "bookmarkCount": 56,
+        "replyCount": 71,
+        "repostCount": 139,
+        "likeCount": 981,
+        "quoteCount": 17,
+        "indexedAt": "2026-09-29T19:43:15.262Z",
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3mw2cdr44fc2a",
+        "cid": "bafyreicrjbyelww7gvuymagi7g2rirokyrvedwzeh5vflmsvnwhnwjvnyi",
+        "author": {
+          "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+          "handle": "bsky.app",
+          "displayName": "Bluesky",
+          "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihwihm6kpd6zuwhhlro75p5qks5qtrcu55jp3gddbfjsieiv7wuka",
+          "associated": {
+            "chat": {
+              "allowIncoming": "none"
+            },
+            "activitySubscription": {
+              "allowSubscriptions": "followers"
+            }
+          },
+          "labels": [],
+          "createdAt": "2023-04-12T04:53:57.057Z",
+          "verification": {
+            "verifications": [],
+            "verifiedStatus": "none",
+            "trustedVerifierStatus": "valid"
+          }
+        },
+        "record": {
+          "$type": "app.bsky.feed.post",
+          "createdAt": "2026-09-21T18:04:06.128Z",
+          "embed": {
+            "$type": "app.bsky.embed.record",
+            "record": {
+              "cid": "bafyreifd67sicomhdgbt453dm4uuez5qzg3g2kktr7s5kclchkfdl7izui",
+              "uri": "at://did:web:bsky38.com/app.bsky.feed.post/3muphbj35cs2h"
+            }
+          },
+          "facets": [
+            {
+              "$type": "app.bsky.richtext.facet",
+              "features": [
+                {
+                  "$type": "app.bsky.richtext.facet#mention",
+                  "did": "did:web:bsky38.com"
+                }
+              ],
+              "index": {
+                "byteEnd": 41,
+                "byteStart": 30
+              }
+            }
+          ],
+          "langs": [
+            "en"
+          ],
+          "text": "If you're in line to vote for @bsky38.com, please stay in line! Polls close in just under 5 hours."
+        },
+        "embed": {
+          "record": {
+            "uri": "at://did:web:bsky38.com/app.bsky.feed.post/3muphbj35cs2h",
+            "cid": "bafyreifd67sicomhdgbt453dm4uuez5qzg3g2kktr7s5kclchkfdl7izui",
+            "author": {
+              "did": "did:web:bsky38.com",
+              "handle": "bsky38.com",
+              "displayName": "38 Influential Posters",
+              "avatar": "https://cdn.bsky.app/img/avatar/plain/did:web:bsky38.com/bafkreibtvmc5rhz3s4zbrxwdox2zfjst3u7w2enygx7hzanp3ryjg3j4m4",
+              "associated": {
+                "chat": {
+                  "allowIncoming": "all",
+                  "allowGroupInvites": "all"
+                },
+                "activitySubscription": {
+                  "allowSubscriptions": "followers"
+                }
+              },
+              "labels": [],
+              "createdAt": "2026-09-04T03:34:09.569Z"
+            },
+            "value": {
+              "$type": "app.bsky.feed.post",
+              "createdAt": "2026-09-04T17:07:50.559Z",
+              "embed": {
+                "$type": "app.bsky.embed.external",
+                "external": {
+                  "description": "Vote for the 38 most influential Bluesky posters of 2026.",
+                  "thumb": {
+                    "$type": "blob",
+                    "ref": {
+                      "$link": "bafkreichgy3lksnaylnb44tlsju5ura23td6ukahe5gyyjj66ew6dnetvy"
+                    },
+                    "mimeType": "image/jpeg",
+                    "size": 212885
+                  },
+                  "title": "38 Most Influential Bluesky Posters of 2026",
+                  "uri": "https://bsky38.com/"
+                }
+              },
+              "facets": [
+                {
+                  "features": [
+                    {
+                      "$type": "app.bsky.richtext.facet#link",
+                      "uri": "https://bsky38.com/"
+                    }
+                  ],
+                  "index": {
+                    "byteEnd": 262,
+                    "byteStart": 252
+                  }
+                }
+              ],
+              "langs": [
+                "en"
+              ],
+              "text": "Who are the 38 most influential Bluesky posters of 2026?\n\nYou get 10 votes, anyone with a Bluesky account can be voted for. The 38 with the most votes make the list. 🗳️\n\nVoting ends the 21st night of September. 🌎 🌬️🔥\n\nCast your ballot: bsky38.com"
+            },
+            "labels": [],
+            "likeCount": 913,
+            "replyCount": 381,
+            "repostCount": 311,
+            "quoteCount": 2066,
+            "indexedAt": "2026-09-04T17:07:51.868Z",
+            "embeds": [
+              {
+                "external": {
+                  "uri": "https://bsky38.com/",
+                  "title": "38 Most Influential Bluesky Posters of 2026",
+                  "description": "Vote for the 38 most influential Bluesky posters of 2026.",
+                  "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:web:bsky38.com/bafkreichgy3lksnaylnb44tlsju5ura23td6ukahe5gyyjj66ew6dnetvy"
+                },
+                "$type": "app.bsky.embed.external#view"
+              }
+            ],
+            "$type": "app.bsky.embed.record#viewRecord"
+          },
+          "$type": "app.bsky.embed.record#view"
+        },
+        "bookmarkCount": 40,
+        "replyCount": 102,
+        "repostCount": 103,
+        "likeCount": 805,
+        "quoteCount": 47,
+        "indexedAt": "2026-09-21T18:04:06.866Z",
+        "labels": [],
+        "threadgate": {
+          "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.threadgate/3mw2cdr44fc2a",
+          "cid": "bafyreifpuh6s76t3d6mhugwqom5bhsbg6iw5ajsj3uj3r7cevpoj2cgmka",
+          "record": {
+            "$type": "app.bsky.feed.threadgate",
+            "createdAt": "2026-09-21T18:08:17.808Z",
+            "hiddenReplies": [
+              "at://did:plc:us3bkeij77l3fz4v5uwugqvd/app.bsky.feed.post/3mw2cgnq7xc2c",
+              "at://did:plc:ngmjkjvsdof2wuj3lqxb2z4m/app.bsky.feed.post/3mw2cih3x4k23"
+            ],
+            "post": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3mw2cdr44fc2a"
+          },
+          "lists": []
+        }
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:zbrhmanjs62oyqywjwdazxz3/app.bsky.feed.post/3mvta262ufs27",
+        "cid": "bafyreihz2vc5ioeb2oyaofmkiv3irn3ldqh332go2uvya6gib4bkfqb4dq",
+        "author": {
+          "did": "did:plc:zbrhmanjs62oyqywjwdazxz3",
+          "handle": "kenjennings.bsky.social",
+          "displayName": "Ken Jennings",
+          "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zbrhmanjs62oyqywjwdazxz3/bafkreicpymtnc6ooeoz4jyb5oaxbf6smrmsd634texeshjmfpths6qusta",
+          "associated": {
+            "chat": {
+              "allowIncoming": "none",
+              "allowGroupInvites": "none"
+            },
+            "activitySubscription": {
+              "allowSubscriptions": "followers"
+            }
+          },
+          "labels": [],
+          "createdAt": "2023-04-27T21:46:36.549Z",
+          "verification": {
+            "verifications": [
+              {
+                "issuer": "did:plc:z72i7hdynmk6r22z27h6tvur",
+                "issuerDisplayName": "Bluesky",
+                "issuerHandle": "bsky.app",
+                "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.graph.verification/3lv4s73gz6k2w",
+                "isValid": true,
+                "createdAt": "2025-07-29T19:01:44.515Z"
+              }
+            ],
+            "verifiedStatus": "valid",
+            "trustedVerifierStatus": "none"
+          }
+        },
+        "record": {
+          "$type": "app.bsky.feed.post",
+          "createdAt": "2026-09-18T22:34:18.503Z",
+          "langs": [
+            "en"
+          ],
+          "text": "I don’t usually meddle on the writing side of Jeopardy!, but tonight I called in a favor for our Bluesky viewers."
+        },
+        "bookmarkCount": 221,
+        "replyCount": 157,
+        "repostCount": 783,
+        "likeCount": 10312,
+        "quoteCount": 109,
+        "indexedAt": "2026-09-18T22:34:19.460Z",
+        "labels": []
+      },
+      "reason": {
+        "by": {
+          "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+          "handle": "bsky.app",
+          "displayName": "Bluesky",
+          "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihwihm6kpd6zuwhhlro75p5qks5qtrcu55jp3gddbfjsieiv7wuka",
+          "associated": {
+            "chat": {
+              "allowIncoming": "none"
+            },
+            "activitySubscription": {
+              "allowSubscriptions": "followers"
+            }
+          },
+          "labels": [],
+          "createdAt": "2023-04-12T04:53:57.057Z",
+          "verification": {
+            "verifications": [],
+            "verifiedStatus": "none",
+            "trustedVerifierStatus": "valid"
+          }
+        },
+        "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.repost/3mvtagpxpgm2j",
+        "cid": "bafyreid4dxcfpwhjcbn3yvpmhs3bydggb7p5jlffuqszvh23gmcpj4n2by",
+        "indexedAt": "2026-09-18T22:41:20.071Z",
+        "$type": "app.bsky.feed.defs#reasonRepost"
+      },
+      "opThreadPostIndex": 1,
+      "opThreadPostCount": 2
+    }
+  ],
+  "cursor": "2026-09-18T22:41:19.222Z"
+}

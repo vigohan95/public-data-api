@@ -33,6 +33,7 @@ from wpx.models import ContentItem, Site  # noqa: E402
 from wpx.net import Blocked, FetchError, PoliteClient  # noqa: E402
 from wpx.rest import RestClient, RestError  # noqa: E402
 from wpx.robots import RobotsPolicy  # noqa: E402
+from bsky.routes import router as bluesky_router  # noqa: E402
 
 VERSION = "1.0.0"
 USER_AGENT = f"wordpress-content-export-api/{VERSION} (+https://github.com/vigohan95/public-data-api)"
@@ -41,12 +42,13 @@ MAX_PER_PAGE_FALLBACK = 20  # each item is one page fetch in fallback mode
 FIELD_NAMES = ("html", "markdown", "text", "raw")
 
 app = FastAPI(
-    title="WordPress Content Export API",
+    title="Public Data API: WordPress Content Export + Bluesky Public Data",
     version=VERSION,
     description=__doc__,
     docs_url="/docs",
     redoc_url=None,
 )
+app.include_router(bluesky_router)
 
 
 # ----------------------------------------------------------------------------------------------------------------
@@ -57,8 +59,9 @@ app = FastAPI(
 @app.middleware("http")
 async def rapidapi_gate(request: Request, call_next):  # type: ignore[no-untyped-def]
     """Only the RapidAPI proxy may call the deployed app once the secret is configured (direct calls would bypass billing)."""
-    secret = os.environ.get("RAPIDAPI_PROXY_SECRET")
-    if secret and request.url.path.startswith("/v1/") and request.headers.get("x-rapidapi-proxy-secret") != secret:
+    # One secret per RapidAPI listing; several listings share this deployment, so a comma list is accepted.
+    secrets = {s.strip() for s in os.environ.get("RAPIDAPI_PROXY_SECRET", "").split(",") if s.strip()}
+    if secrets and request.url.path.startswith("/v1/") and request.headers.get("x-rapidapi-proxy-secret") not in secrets:
         return JSONResponse({"error": "forbidden", "message": "Call this API through RapidAPI."}, status_code=403)
     return await call_next(request)
 
@@ -122,7 +125,7 @@ async def index() -> dict[str, Any]:
         "name": app.title,
         "version": VERSION,
         "docs": "/docs",
-        "endpoints": ["/v1/wordpress/site", "/v1/wordpress/posts", "/v1/wordpress/terms", "/v1/wordpress/authors", "/v1/wordpress/media"],
+        "endpoints": ["/v1/wordpress/site", "/v1/wordpress/posts", "/v1/wordpress/terms", "/v1/wordpress/authors", "/v1/wordpress/media", "/v1/bluesky/search", "/v1/bluesky/posts", "/v1/bluesky/feed", "/v1/bluesky/thread", "/v1/bluesky/profiles", "/v1/bluesky/followers", "/v1/bluesky/follows", "/v1/bluesky/engagement", "/v1/bluesky/list"],
     }
 
 

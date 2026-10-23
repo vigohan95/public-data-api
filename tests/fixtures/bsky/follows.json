@@ -1,0 +1,186 @@
+{
+  "follows": [
+    {
+      "did": "did:plc:2buz4gf5sew3rdwzbxsvcd4s",
+      "handle": "minakimes.bsky.social",
+      "displayName": "Mina Kimes",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2buz4gf5sew3rdwzbxsvcd4s/bafkreigsoyaneiqepfum2crpzpiv37w47pv73qckfobn5qd3vsghjd6tb4",
+      "associated": {
+        "chat": {
+          "allowIncoming": "none",
+          "allowGroupInvites": "none"
+        },
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2024-11-07T17:42:28.091Z",
+      "verification": {
+        "verifications": [
+          {
+            "issuer": "did:plc:z72i7hdynmk6r22z27h6tvur",
+            "issuerDisplayName": "Bluesky",
+            "issuerHandle": "bsky.app",
+            "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.graph.verification/3lndpqvsw342u",
+            "isValid": true,
+            "createdAt": "2025-04-21T10:45:06.631Z"
+          }
+        ],
+        "verifiedStatus": "valid",
+        "trustedVerifierStatus": "none"
+      },
+      "description": "NFL analyst at ESPN.",
+      "indexedAt": "2025-10-14T14:16:48.514Z"
+    },
+    {
+      "did": "did:plc:rcbtnmlk2la67bm4po65oe23",
+      "handle": "mapquest.com",
+      "displayName": "MapQuest",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rcbtnmlk2la67bm4po65oe23/bafkreif4gnpczz35lb6abj3e3yi245hsb6wb4verg6pn66mpo2ovvy73j4",
+      "associated": {
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2024-11-21T21:11:36.371Z",
+      "verification": {
+        "verifications": [
+          {
+            "issuer": "did:plc:z72i7hdynmk6r22z27h6tvur",
+            "issuerDisplayName": "Bluesky",
+            "issuerHandle": "bsky.app",
+            "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.graph.verification/3mu3nzi3w3m2k",
+            "isValid": true,
+            "createdAt": "2026-08-27T20:15:22.264Z"
+          }
+        ],
+        "verifiedStatus": "valid",
+        "trustedVerifierStatus": "none"
+      },
+      "description": "The OG of online mapping.\n\nGet the app on Android and iOS: lnk.bio/MapQuest",
+      "indexedAt": "2026-08-27T20:23:38.364Z"
+    },
+    {
+      "did": "did:plc:ragtjsm2j2vknwkz3zp4oxrd",
+      "handle": "pfrazee.com",
+      "displayName": "P(aul) Frazee",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ragtjsm2j2vknwkz3zp4oxrd/bafkreihhpqdyntku66himwor5wlhtdo44hllmngj2ofmbqnm25bdm454wq",
+      "associated": {
+        "chat": {
+          "allowIncoming": "following"
+        },
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2022-11-17T00:35:16.391Z",
+      "verification": {
+        "verifications": [
+          {
+            "issuer": "did:plc:z72i7hdynmk6r22z27h6tvur",
+            "issuerDisplayName": "Bluesky",
+            "issuerHandle": "bsky.app",
+            "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.graph.verification/3mvl2gly6is2j",
+            "isValid": true,
+            "createdAt": "2026-09-15T16:32:35.223Z"
+          }
+        ],
+        "verifiedStatus": "valid",
+        "trustedVerifierStatus": "none"
+      },
+      "description": "CTO at Bluesky. Not a nerd.",
+      "indexedAt": "2026-09-15T00:27:47.773Z"
+    },
+    {
+      "did": "did:plc:t5pur7eruxfgxy7ynpfrmg2w",
+      "handle": "chiitan.love",
+      "displayName": "Chiitan🌈ちぃたん☆",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:t5pur7eruxfgxy7ynpfrmg2w/bafkreihtj5bb6lvdlrcyun7fsdmw5e5je6qdvcfznetsitmkq4lx2slvky",
+      "associated": {
+        "chat": {
+          "allowIncoming": "all"
+        },
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2024-02-07T14:03:04.704Z",
+      "verification": {
+        "verifications": [
+          {
+            "issuer": "did:plc:z72i7hdynmk6r22z27h6tvur",
+            "issuerDisplayName": "Bluesky",
+            "issuerHandle": "bsky.app",
+            "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.graph.verification/3lw6ixnv72o2u",
+            "isValid": true,
+            "createdAt": "2025-08-12T04:47:02.909Z"
+          }
+        ],
+        "verifiedStatus": "valid",
+        "trustedVerifierStatus": "none"
+      },
+      "description": "I'm chiitan Japanese crazy mascot\n🏳️‍⚧️Chiitan is a transgender ally🏳️‍🌈\nBL,furry,YURI,Yume LOVE🤍\n\nX https://x.com/chiitan7407/\nIG http://instagram.com/chiitan7407/\nYouTube https://www.youtube.com/@chiitan\nTIKTOK https://www.tiktok.com/@love2chiitan",
+      "indexedAt": "2026-09-09T01:56:00.765Z"
+    },
+    {
+      "did": "did:plc:cwf4mmm7mpzistinx3ox2zhj",
+      "handle": "toni.bsky.team",
+      "displayName": "Toni Schneider",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cwf4mmm7mpzistinx3ox2zhj/bafkreicixoq23lsimr6cabhtss53jimjzouzkstif4xdjmvt4rcr5bjsku",
+      "associated": {
+        "chat": {
+          "allowIncoming": "none"
+        },
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2023-11-28T19:15:32.965Z",
+      "verification": {
+        "verifications": [
+          {
+            "issuer": "did:plc:z72i7hdynmk6r22z27h6tvur",
+            "issuerDisplayName": "Bluesky",
+            "issuerHandle": "bsky.app",
+            "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.graph.verification/3mgngmgwfk62n",
+            "isValid": true,
+            "createdAt": "2026-03-09T17:58:00.876Z"
+          }
+        ],
+        "verifiedStatus": "valid",
+        "trustedVerifierStatus": "none"
+      },
+      "description": "CEO of Bluesky, partner @trueventures.com, more at toni.org",
+      "indexedAt": "2026-08-22T00:44:33.461Z"
+    }
+  ],
+  "subject": {
+    "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+    "handle": "bsky.app",
+    "displayName": "Bluesky",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihwihm6kpd6zuwhhlro75p5qks5qtrcu55jp3gddbfjsieiv7wuka",
+    "associated": {
+      "chat": {
+        "allowIncoming": "none"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2023-04-12T04:53:57.057Z",
+    "verification": {
+      "verifications": [],
+      "verifiedStatus": "none",
+      "trustedVerifierStatus": "valid"
+    },
+    "description": "official Bluesky account (check username👆)\n\nBugs, feature requests, feedback: support@bsky.app",
+    "indexedAt": "2025-10-27T21:05:26.152Z"
+  },
+  "cursor": "3mqcoupvjzg2m"
+}

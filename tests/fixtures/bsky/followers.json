@@ -1,0 +1,108 @@
+{
+  "followers": [
+    {
+      "did": "did:plc:sdo6kumfbnroeho6zllkzc2z",
+      "handle": "handle.invalid",
+      "displayName": "Dev Test Account",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sdo6kumfbnroeho6zllkzc2z/bafkreidlettqkts2ru3b7wscewep5mbkxjfppdrqbhyfgcqgbrk2zdfrvi",
+      "associated": {
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2025-12-22T12:18:03.125Z",
+      "indexedAt": "2025-12-22T12:18:03.125Z"
+    },
+    {
+      "did": "did:plc:mwvlqlznk5sumbuhkf6s7dvm",
+      "handle": "yuuyook.bsky.social",
+      "displayName": "yuuyook.bsky.social",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mwvlqlznk5sumbuhkf6s7dvm/bafkreibk7n26fze34lncmzpdi5v3lg7rnfnr77q2zulq54au34jiguwdea",
+      "associated": {
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2026-05-23T11:52:04.564Z",
+      "indexedAt": "2026-07-16T08:29:20.063Z"
+    },
+    {
+      "did": "did:plc:rn6ymjv4ypbt6gli6eggz25t",
+      "handle": "ian.denazen.social",
+      "displayName": "Cory PDS Test",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rn6ymjv4ypbt6gli6eggz25t/bafkreifibnihmxncdribjogmtp5iyeq42tdyvnqnwri3awj7z7fwope5ru",
+      "associated": {
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2026-04-05T04:08:03.050Z",
+      "description": "DIAGNOSTIC: Updated at 2026-04-05T21:38:43.471Z",
+      "indexedAt": "2026-04-08T20:14:58.453Z"
+    },
+    {
+      "did": "did:plc:fmtj42jmivqv5ffhhniuflov",
+      "handle": "useforgekit.bsky.social",
+      "displayName": "ForgeKit",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fmtj42jmivqv5ffhhniuflov/bafkreiflnuwjcrdi36s3h63xqgrn6gumysxuhl7g4fyg5poc7mqegqhp2u",
+      "associated": {
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [
+        {
+          "src": "did:plc:fmtj42jmivqv5ffhhniuflov",
+          "uri": "at://did:plc:fmtj42jmivqv5ffhhniuflov/app.bsky.actor.profile/self",
+          "cid": "bafyreia5mt4kboyroyfmr7tkim5tfvkpexjw2jsc2bp4jfmghmzgopz7am",
+          "val": "automated",
+          "cts": "2026-09-03T00:11:17.679Z"
+        }
+      ],
+      "createdAt": "2026-09-03T00:11:18.596Z",
+      "description": "Screenshot & PDF API without Puppeteer. One credit pool for screenshots, PDFs, OG images, QR, link previews. Agent-ready (MCP). https://useforgekit.dev",
+      "indexedAt": "2026-09-03T00:15:32.501Z"
+    },
+    {
+      "did": "did:plc:cd2eek4gbsnc2btiyacv4j3k",
+      "handle": "kokomo2j.bsky.social",
+      "displayName": "",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cd2eek4gbsnc2btiyacv4j3k/bafkreifurge6aldmz7b3snuwrmlaawzbqmdzujawqb7glgfn5xzem7bzly",
+      "associated": {
+        "activitySubscription": {
+          "allowSubscriptions": "followers"
+        }
+      },
+      "labels": [],
+      "createdAt": "2026-06-21T10:26:10.660Z",
+      "indexedAt": "2026-06-21T10:29:54.159Z"
+    }
+  ],
+  "subject": {
+    "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+    "handle": "bsky.app",
+    "displayName": "Bluesky",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihwihm6kpd6zuwhhlro75p5qks5qtrcu55jp3gddbfjsieiv7wuka",
+    "associated": {
+      "chat": {
+        "allowIncoming": "none"
+      },
+      "activitySubscription": {
+        "allowSubscriptions": "followers"
+      }
+    },
+    "labels": [],
+    "createdAt": "2023-04-12T04:53:57.057Z",
+    "verification": {
+      "verifications": [],
+      "verifiedStatus": "none",
+      "trustedVerifierStatus": "valid"
+    },
+    "description": "official Bluesky account (check username👆)\n\nBugs, feature requests, feedback: support@bsky.app",
+    "indexedAt": "2025-10-27T21:05:26.152Z"
+  },
+  "cursor": "bdaec45f64l2s"
+}
