@@ -116,12 +116,6 @@ async def health() -> dict[str, Any]:
     return {"ok": True, "version": VERSION}
 
 
-@app.api_route("/__debug/{path:path}", methods=["GET"])
-async def debug_path(path: str, request: Request) -> dict[str, Any]:
-    """Temporary: shows what path/root_path the platform hands the app (routing check after deploy)."""
-    return {"path": path, "scope_path": request.scope.get("path"), "root_path": request.scope.get("root_path"), "raw_path": (request.scope.get("raw_path") or b"").decode(), "url": str(request.url)}
-
-
 @app.get("/")
 async def index() -> dict[str, Any]:
     return {
