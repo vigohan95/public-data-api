@@ -83,7 +83,10 @@ def test_bad_fields_is_422(wp):
 
 def test_rapidapi_secret_gate(wp, monkeypatch):
     monkeypatch.setenv("RAPIDAPI_PROXY_SECRET", "s3cret")
+    monkeypatch.setenv("RAPIDAPI_PROXY_SECRET_2", "other-listing")
     c = TestClient(app)
     assert c.get("/health").status_code == 200  # health stays open for uptime checks
     assert c.get("/v1/wordpress/site", params={"url": SITE}).status_code == 403
     assert c.get("/v1/wordpress/site", params={"url": SITE}, headers={"X-RapidAPI-Proxy-Secret": "s3cret"}).status_code == 200
+    assert c.get("/v1/wordpress/site", params={"url": SITE}, headers={"X-RapidAPI-Proxy-Secret": "other-listing"}).status_code == 200
+    assert c.get("/v1/wordpress/site", params={"url": SITE}, headers={"X-RapidAPI-Proxy-Secret": "wrong"}).status_code == 403

@@ -59,8 +59,9 @@ app.include_router(bluesky_router)
 @app.middleware("http")
 async def rapidapi_gate(request: Request, call_next):  # type: ignore[no-untyped-def]
     """Only the RapidAPI proxy may call the deployed app once the secret is configured (direct calls would bypass billing)."""
-    # One secret per RapidAPI listing; several listings share this deployment, so a comma list is accepted.
-    secrets = {s.strip() for s in os.environ.get("RAPIDAPI_PROXY_SECRET", "").split(",") if s.strip()}
+    # One secret per RapidAPI listing; several listings share this deployment. Vercel secrets are write-only, so
+    # each listing gets its own variable: RAPIDAPI_PROXY_SECRET, RAPIDAPI_PROXY_SECRET_2, _3, ... (a comma list works too).
+    secrets = {s.strip() for name, value in os.environ.items() if name == "RAPIDAPI_PROXY_SECRET" or name.startswith("RAPIDAPI_PROXY_SECRET_") for s in value.split(",") if s.strip()}
     if secrets and request.url.path.startswith("/v1/") and request.headers.get("x-rapidapi-proxy-secret") not in secrets:
         return JSONResponse({"error": "forbidden", "message": "Call this API through RapidAPI."}, status_code=403)
     return await call_next(request)

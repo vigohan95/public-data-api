@@ -50,5 +50,5 @@ Listing created: https://rapidapi.com/HanVigo/api/bluesky-public-data (Studio id
 
 Owner steps (the automation is not allowed to read or write secrets, nor accept the publishing terms):
 1. Studio → Gateway → X-RapidAPI-Proxy-Secret → Copy. https://rapidapi.com/studio/api_3c69b44a-1a47-41d2-b432-9a4c63607bae/publish/gateway
-2. Vercel → public-data-api → Settings → Environment Variables → RAPIDAPI_PROXY_SECRET → Edit: keep the existing value and append a comma plus the copied secret (`<wordpress-secret>,<bluesky-secret>`) → Save. Then tell Claude, who triggers the redeploy.
+2. Vercel → public-data-api → Settings → Environment Variables → Add Environment Variable: Key `RAPIDAPI_PROXY_SECRET_2`, Value = the copied secret → Save (Vercel secrets are write-only, so the first variable cannot be appended to; the app accepts RAPIDAPI_PROXY_SECRET, _2, _3, ...). Then tell Claude, who triggers the redeploy.
 3. Studio → General → Visibility: tick the rights confirmation, switch to Public, Save. https://rapidapi.com/studio/api_3c69b44a-1a47-41d2-b432-9a4c63607bae/publish/general
